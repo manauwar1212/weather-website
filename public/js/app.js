@@ -24,7 +24,7 @@ weatherForm.addEventListener('submit',(e) =>{
             messageOne.textContent = 'Address: ' + data.location
             messageTwo.textContent = 'Current Temperature: ' + data.forecast.currentTemp
             messageThree.textContent = 'Forecast: ' + data.forecast.description
-            messageFour.textContent = 'Local Time: ' + data.forecast.time
+            messageFour.textContent = 'Local Date & Time: ' + data.forecast.time
         }
     })
 })
